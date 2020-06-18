@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LJIET</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_map_">Map</string>
+    <string name="ljiet_ljinstitutes_org">ljiet@ljinstitutes.org</string>
+</resources>

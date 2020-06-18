@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <Button
+            android:id="@+id/BtnAbout"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="About"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:background="#3d3ad4"/>
+        <Button
+            android:id="@+id/BtnContact"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="Contact"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:background="#3d3ad4"/>
+        <Button
+            android:id="@+id/BtnSignUp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="Sign Up"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:background="#3d3ad4"/>
+        <Button
+            android:id="@+id/BtnSignIn"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="Sign In"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:background="#3d3ad4"/>
+
+        </LinearLayout>
+    <FrameLayout
+        android:id="@+id/FrmLyt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/BtnEvents"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="Events"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:background="#3d3ad4"/>
+        <Button
+            android:id="@+id/BtnTeams"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="Team"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:background="#3d3ad4"/>
+        <Button
+            android:id="@+id/BtnFAQ"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="FAQ"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:background="#3d3ad4"/>
+        <Button
+            android:id="@+id/BtnTerms"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="Terms"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:background="#3d3ad4"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Sign Up"
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/FirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter The First Name"
+                android:textSize="20dp"
+                android:layout_marginTop="35dp"
+                android:inputType="textPersonName"
+                android:textStyle="italic"/>
+            <EditText
+                android:id="@+id/MiddleName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter The Middle Name"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:inputType="textPersonName"
+                android:textStyle="italic"/>
+            <EditText
+                android:id="@+id/LastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter The Last Name"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:inputType="textPersonName"
+                android:textStyle="italic"/>
+            <EditText
+                android:id="@+id/ContactNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter The Contact No "
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:inputType="number"
+                android:maxLength="10"
+                android:textStyle="italic"/>
+            <EditText
+                android:id="@+id/SuEmailId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter The Email ID here"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:inputType="textEmailAddress"
+                android:maxLength="50"
+                android:textStyle="italic"/>
+            <EditText
+                android:id="@+id/SuPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter The Password Here"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:inputType="textPassword"
+                android:maxLength="12"
+                android:textStyle="italic"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+               <Button
+                   android:id="@+id/BtnSuSignUp"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+                   android:layout_weight="1"
+               android:text="Sign Up"
+               android:textColor="#0000fb"
+               android:textSize="20dp"
+                   android:textStyle="bold"/>
+               <Button
+                   android:id="@+id/BtnSuCancel"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:text="Cancel"
+                   android:textColor="#0000fb"
+                   android:textSize="20dp"
+                   android:textStyle="bold"/>
+           </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
